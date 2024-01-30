@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:id="@+id/title"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/veg"
+
+        android:text="veg"
+        android:textSize="20sp"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/title"
+        android:layout_marginTop="50dp"
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nonveg"
+
+
+        android:text="non-veg"
+        android:textSize="20sp"
+        android:layout_below="@+id/veg"
+        android:layout_alignLeft="@+id/veg"
+        android:layout_marginTop="50dp"
+
+        />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bev"
+
+
+        android:text="bev"
+        android:textSize="20sp"
+        android:layout_below="@+id/nonveg"
+        android:layout_alignLeft="@+id/nonveg"
+        android:layout_marginTop="50dp"
+
+        />
+
+
+
+
+</RelativeLayout>
